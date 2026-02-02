@@ -96,19 +96,19 @@ CodeAlpha_Handwritten_Character_Recognition/
 ```bash
 python -m venv myenv
 ```
-2️⃣ Activate Environment (Windows)
+### 2️⃣ Activate Environment (Windows)
 ```bash
 myenv\Scripts\activate
 ```
-3️⃣ Install Dependencies
+### 3️⃣ Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
-4️⃣ Train the Model
+### 4️⃣ Train the Model
 ```bash
 python src/train_model.py
 ```
-5️⃣ Test the Model
+### 5️⃣ Test the Model
 ```bash
 python src/test_model.py
 ```
@@ -139,6 +139,8 @@ Test Accuracy: ~88–90%
 
 Successfully recognizes both handwritten digits and characters
 
+---
+
 ## 🚀 Future Improvements
 
 Real-time handwritten input using GUI
@@ -154,6 +156,7 @@ Deployment as a cloud-based ML service
 This project demonstrates the effectiveness of CNN-based deep learning models for handwritten character recognition.
 It fulfills all the requirements of CodeAlpha Task 3 and showcases strong fundamentals in machine learning, computer vision, and model evaluation.
 
+---
 ## 👤 Author
 
 Shubhra Kanti Banerjee,
